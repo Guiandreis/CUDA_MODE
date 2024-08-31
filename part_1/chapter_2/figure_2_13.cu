@@ -32,10 +32,6 @@ void vecAdd(float* A, float* B, float* C, int n) {
     // Copy device values to host memory
     cudaMemcpy(C, C_d, size, cudaMemcpyDeviceToHost);
 
-    for (int i = 0; i < n; i++) {
-        printf("%g ", double(C[i]));
-    }
-
     // Free device memory
     cudaFree(A_d);
     cudaFree(B_d);
@@ -45,7 +41,7 @@ void vecAdd(float* A, float* B, float* C, int n) {
 int main(void) {
     // create host vectors
 	float *A_h, *B_h, *C_h;
-	int n = 100;
+	int n = 800;
 	// allocate memory for host vectors
 	A_h = (float*)malloc(sizeof(float)*n);
 	B_h = (float*)malloc(sizeof(float)*n);
