@@ -38,7 +38,7 @@ void vecAdd(float* A, float* B, float* C, int n) {
     cudaFree(C_d);
 }
 
-int main(void) {
+void main(void) {
     // create host vectors
 	float *A_h, *B_h, *C_h;
 	int n = 800;
