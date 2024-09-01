@@ -1,0 +1,31 @@
+CUDA Device 0 properties successfully retrieved
+  Device name: NVIDIA GeForce RTX 3060 Laptop GPU
+  Total global memory: 6219038720 bytes
+
+Device 0: "NVIDIA GeForce RTX 3060 Laptop GPU"
+  Compute capability: 8.6
+  Total global memory: 6219038720 bytes
+  Shared memory per block: 49152 bytes
+  Registers per block: 65536
+  Warp size: 32
+  Memory pitch: 2147483647 bytes
+  Max threads per block: 1024
+  Max threads dimensions (x, y, z): (1024, 1024, 64)
+  Max grid size (x, y, z): (2147483647, 65535, 65535)
+  Clock rate: 1702000 kHz
+  Total constant memory: 65536 bytes
+  Compute mode: 0
+  Concurrent kernels: Yes
+  ECC enabled: No
+  Memory clock rate: 7001000 kHz
+  Memory bus width: 192 bits
+  L2 cache size: 3145728 bytes
+  Maximum texture dimensions (1D): 131072
+  Maximum texture dimensions (2D): 131072 x 65536
+  Maximum texture dimensions (3D): 16384 x 16384 x 16384
+  Multi-processor count: 30
+  Integrated: No
+  Can map host memory: Yes
+  Unified addressing: Yes
+  Cooperative launch: Yes
+  Cooperative multi-device launch: Yes
